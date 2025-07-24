@@ -1,6 +1,7 @@
-# Thinkion Report Downloader API
+# 🌶️ Picante
 
-Efficient API for transforming Thinkion logs into JSON format for N8N integration, deployed on Railway.
+POS Report Downloader
+API for automatically logging to the POS site and downloading repors into JSON format from N8N integration, deployed on Railway. The automation runs every 1 hr.
 
 ## 📁 Project Structure
 
@@ -8,7 +9,6 @@ Efficient API for transforming Thinkion logs into JSON format for N8N integratio
 ├── app/                    # Main application code
 │   ├── main.py            # FastAPI application
 │   ├── thinkion_downloader.py # Report downloader implementation
-│   ├── gs_uploader.py     # Google Sheets integration
 │   └── __init__.py        # Package initialization
 ├── data/                  # Data storage
 │   ├── logs/              # Application logs
